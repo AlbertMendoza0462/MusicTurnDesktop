@@ -1,0 +1,91 @@
+.root {
+    -fx-background-size: 800 900;
+    -fx-background-radius: 20 0 20 0;
+    -fx-border-radius: 15 0 15 0;
+    -fx-border-width: 3;
+    -fx-border-color: #821EFF;
+}
+
+.VboxColaCanciones {
+    -fx-background-color: #821EFF;
+}
+
+.panelBarra {
+    -fx-background-color: #821EFFFF;
+    -fx-background-radius: 10 0 0 0;
+}
+
+.VboxColaCanciones {
+    -fx-background-radius: 20 20 20 0;
+}
+
+.listaPadre {
+    -fx-padding: 0 15 15 15;
+}
+
+.listaPadre VBox {
+    -fx-background-color: #ffffff44;
+    -fx-cursor: hand;
+    -fx-background-radius: 5;
+    -fx-padding: 8;
+}
+
+.btnRcargarLista {
+    -fx-background-color: #821EFF;
+}
+
+.btnRcargarLista:hover {
+    -fx-background-color: #821EFFcc;
+}
+
+.btnRcargarLista:pressed {
+    -fx-background-color: #821EFF;
+}
+
+.listaPadre VBox:hover {
+    -fx-background-color: #ffffff33;
+}
+
+.listaPadre VBox:pressed {
+    -fx-background-color: #ffffff11;
+}
+
+.listaPadre VBox Label {
+    -fx-font-weight: bold;
+    -fx-color: white;
+}
+
+.scroll-pane {
+    -fx-background-radius: 20 20 20 0;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #ffffff88;
+    -fx-background-radius: 5em;
+}
+
+.scroll-bar:horizontal ,
+.scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+
+
+
